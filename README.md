@@ -9,6 +9,8 @@ Lors de l'installation, utilisez les options par défaut. Une fois que c'est ins
 ![](http://i.imgur.com/9SSrbD9.png)
 
 Allez au dossier où vous voulez installer le projet avec la commande `cd`. Dans mon cas, `cd /d/Projects/UnrealEngine/`.
+Lorsque vous faites la commande 'ls', il est possible de voir tous les dossiers et fichiers à l'intérieur du répertoire courrant.
+Par défaut, le répertoire courrant est dans le C:\Utilisateurs\NomUtilisateur.
 
 Pour installer le projet, `git clone https://github.com/samuellapointe/LeProjet.git`
 
