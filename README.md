@@ -9,7 +9,7 @@ Lors de l'installation, utilisez les options par défaut. Une fois que c'est ins
 ![](http://i.imgur.com/9SSrbD9.png)
 
 Allez au dossier où vous voulez installer le projet avec la commande `cd`. Dans mon cas, `cd /d/Projects/UnrealEngine/`.
-Lorsque vous faites la commande 'ls', il est possible de voir tous les dossiers et fichiers à l'intérieur du répertoire courrant.
+Lorsque vous faites la commande `ls`, il est possible de voir tous les dossiers et fichiers à l'intérieur du répertoire courrant.
 Par défaut, le répertoire courrant est dans le C:\Utilisateurs\NomUtilisateur.
 
 Pour installer le projet, `git clone https://github.com/samuellapointe/LeProjet.git`
@@ -28,3 +28,9 @@ Le commit est sur votre ordinateur local. Pour le partagez avec tout le monde, i
 Il se pourrait qu'il y ait des conflits à cette étape, par exemple si quelqu'un a modifié la même image que vous. Dans ces situations, il faut déterminer quelle version de l'image garder. Dans le cas des fichiers textes comme le code, git n'aura habituellement pas de problème à intégrer vos modifications au fichier. En cas de problème, je pourrais vous aider.
 
 Enfin, pour envoyer la modification, `git push`. Il faudra entrer votre nom d'utilisateur et mot de passe GitHub. Si vous n'avez pas été ajouté à la liste des contributeurs, il ne vous laissera pas ajouter la modification. Contactez moi ou un autre membre pour qu'on vous rajoute.
+
+### En résumé ###
+    git add .
+    git commit -m "lol"
+    git pull --rebase
+    git push
