@@ -17,6 +17,8 @@ Pour installer le projet, `git clone https://github.com/samuellapointe/LeProjet.
 Le projet est maintenant disponible dans ce dossier, vous pouvez double-cliquer sur le ficher LeProjet.uproject pour le démarrer. 
 ### Effectuer des changements ###
 
+Avant de commencer, il faut mettre le projet à jour. Utilisez `git pull` pour aller chercher la dernière version du projet.
+
 Je viens de créer un matériel nommé MetalBleu, je l'ai appliqué à un cube et j'ai reconstruit (build) la scène. Il est maintenant temps de rendre les changements disponibles pour tout le monde. Dans la console Git, entrez dans le dossier du projet avec `cd`. Dans ce dossier, faites `git status` pour voir la liste des fichier créés et modifiés:
 
 ![](http://i.imgur.com/GL6N25Q.png)
